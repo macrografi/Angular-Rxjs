@@ -1,0 +1,11 @@
+<div *ngIf="carousels$ | async as carousel">
+  <carousel>
+    <slide *ngFor="let item of carousel">
+      <img [src]="item.image" [alt]="item" style="width:100%" />
+      <div class="carousel-caption d-none d-md-block">
+        <h3>{{ item.description }}</h3>
+        <p>{{ item.description }}</p>
+      </div>
+    </slide>
+  </carousel>
+</div>

@@ -1,0 +1,16 @@
+@import '../../../scss/mixins';
+@import '../../../scss/variables';
+
+header {
+  height: 55px;
+  .logo {
+    @include scriptsFont($logo...);
+  }
+  .logo:hover {
+    text-decoration: none;
+  }
+  .logo .first-text {
+    font-size: 28px;
+    line-height: 29px;
+  }
+}

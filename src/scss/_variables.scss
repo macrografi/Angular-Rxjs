@@ -1,0 +1,27 @@
+$bodyImg: url('./images/Bg.jpg') no-repeat fixed center top / 100% auto #2b0d02;
+$quotImg: url('./images/index.png') no-repeat scroll 20px 25px rgba(0, 0, 0, 0);
+$logo: 0px 2px 2px rgba(0, 0, 0, 0.7), ('Marck Script', cursive), 18px, #fff !important;
+$logoFont: 'Marck Script', cursive;
+$navBg: rgba(0, 0, 0, 0.5);
+/*media queries*/
+$extra-large-desktop: '(min-width: 1300px)';
+$large-desktop: '(min-width: 979px) and (max-width: 1299px)';
+$tablet-landscape: '(min-width: 768px) and (max-width: 978px)';
+$tablet-portrait: '(min-width: 481px) and (max-width: 767px)';
+$phone: '(min-width: 320px) and (max-width: 480px)';
+$min-size: '(max-width: 320px)';
+
+$containerBg: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAPoCAYAAADqSB/uAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAw9pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NDkxMSwgMjAxMy8xMC8yOS0xMTo0NzoxNiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MUE1M0VGREZBMzgyMTFFM0FFNzNEN0VGNDBDOTQ1QjUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MUE1M0VGREVBMzgyMTFFM0FFNzNEN0VGNDBDOTQ1QjUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIFdpbmRvd3MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0iNzVCQUY2ODFENzdDNTFBRUY0NDc5MjMwNTA5NTNGQTIiIHN0UmVmOmRvY3VtZW50SUQ9Ijc1QkFGNjgxRDc3QzUxQUVGNDQ3OTIzMDUwOTUzRkEyIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+w5rk8AAAAPBJREFUeNrsz7EJADAIBED3cP85DSkC6ZLvrxARXvRqZuqqfs1RePcofBY6easYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBi+Ly0BBgDdCFgMesCM4wAAAABJRU5ErkJggg==');
+$headerMenuBgStyle: 0, rgba(0, 0, 0, 0.5);
+$jumbotron: 0, 0 1rem, rgba(0, 0, 0, 0.5);
+
+//color
+$body-color: #928059;
+$capsColor: #5c3e07;
+$articleColor: #ad6b04;
+$white: #fff;
+
+$font-19: 19px;
+$font-16: 16px;
+$blue: #d7d7d7 !default;
+$primary: $blue !default;

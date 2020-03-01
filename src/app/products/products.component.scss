@@ -1,0 +1,52 @@
+@import '../../scss/mixins';
+@import '../../scss/variables';
+
+.card-text label {
+  color: $articleColor;
+  font-size: 14px;
+  font-weight: 500;
+}
+.article {
+  a {
+    .card {
+      background-color: transparent;
+      .img-holder {
+        background: rgba(0, 0, 0, 0.4);
+        margin: 10px;
+        display: inline-flex;
+        img {
+          width: 100%;
+        }
+      }
+      .card-body {
+        font-size: 14px;
+        color: $articleColor;
+        p {
+          margin: 0;
+          padding: 0;
+        }
+        i {
+          color: #928059;
+        }
+      }
+    }
+    position: relative;
+    cursor: pointer;
+    color: $articleColor;
+    display: inline-block;
+    background-color: rgba(51, 32, 9, 0.2);
+    border: 1px dotted rgba(153, 102, 51, 0.2);
+  }
+  a:hover {
+    text-decoration: none;
+    background-color: rgba(51, 32, 9, 0.3);
+  }
+  .add-favorite {
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    color: #ad6b04;
+    opacity: 0.5;
+  }
+}

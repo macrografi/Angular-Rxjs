@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Goldfinch Cages"
+    },
+    {
+      "id": 2,
+      "name": "Green finch cages"
+    },
+    {
+      "id": 3,
+      "name": "Canary Cages"
+    },
+    {
+      "id": 4,
+      "name": "Crossbred Cages"
+    }
+  ]
+}

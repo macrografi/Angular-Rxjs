@@ -1,0 +1,65 @@
+<div class="pb-1" *ngIf="products$ | async as products">
+  <div class="container page-head">
+    <div class="page-head-caps">
+      <h2>{{ productCategory }}</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, placeat corrupti facere ex provident
+        dignissimos exercitationem necessitatibus dolorum ullam perferendis doloribus. Quia, explicabo molestias facilis
+        nulla magni impedit unde quasi.
+      </p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 pt-3 pb-3 article" *ngFor="let product of products; let i = index">
+        <a (click)="openModal(product)">
+          <div class="card">
+            <div class="img-holder">
+              <img src="{{ product.imageUrl }}" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">{{ product.categoryId }} / {{ product.productCode }}</h5>
+              <p class="card-text">
+                <label>Name :</label><i> {{ product.productName }} </i>
+              </p>
+              <p class="card-text">
+                <label>Model :</label><i> {{ product.productModel }} </i>
+              </p>
+              <p class="card-text">
+                <label>Wood :</label><i> {{ product.wood }} </i>
+              </p>
+              <p class="card-text">
+                <label>Width :</label><i> {{ product.productWidth }} </i>
+              </p>
+              <p class="card-text">
+                <label>Height :</label><i> {{ product.productHeight }} </i>
+              </p>
+              <p class="card-text">
+                <label>Price :</label><i> {{ product.price }} </i>
+              </p>
+              <p class="card-text">
+                <label>Description :</label><i> {{ product.description }} </i>
+              </p>
+              <p class="card-text">
+                <label>Category :</label><i> {{ product.category }} </i>
+              </p>
+            </div>
+          </div>
+        </a>
+        <!--        <i
+          class="add-favorite fa fa-heart-o"
+          (click)="clickFavorite(product)"
+          [class.fa-heart]="product === selectedProduct"
+        >
+        </i>-->
+        <div
+          class="add-favorite"
+          (click)="clickFavorite(product)"
+          [ngClass]="product === selectedProduct ? 'selected' : ''"
+        >
+          <i class="fa fa-heart"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+@import '../../../scss/mixins';
+@import '../../../scss/variables';
+
+footer {
+  text-shadow: 1px 1px 0 #000000;
+  color: #928059;
+  font-family: $logoFont;
+  font-size: 18px;
+  li {
+    list-style-type: none;
+    float: left;
+    margin: 5px 10px;
+    color: #928059;
+    text-shadow: 1px 1px 0 #000000;
+    a {
+      color: #928059;
+    }
+    a:hover {
+      color: #928059;
+      text-decoration: underline;
+    }
+  }
+  li:last-child {
+    float: right;
+  }
+}
