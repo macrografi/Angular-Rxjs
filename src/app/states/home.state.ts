@@ -1,8 +1,9 @@
 import { Action, Selector, State, StateContext } from '@ngxs/store';
-import { CarouselService } from '../services/carousel.service';
+
 import { CarouselDefault } from '../defaults/carousel.default';
 import { GetCarousel } from '../actions/carousel.action';
 import { tap } from 'rxjs/operators';
+import { CarouselService } from '../services';
 
 @State<CarouselDefault>({
   name: 'carousels',

@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, OnDestroy, OnInit } from '@angular/core';
 import { Select, Store } from '@ngxs/store';
-import { HomeState } from '../states/home.state';
 import { GetCarousel } from '../actions/carousel.action';
+import { HomeState } from '../states';
 
 @Component({
   selector: 'app-home',

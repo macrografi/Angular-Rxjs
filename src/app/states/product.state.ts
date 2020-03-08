@@ -1,10 +1,10 @@
 import { ProductDefault } from '../defaults/product.default';
 import { Action, Selector, State, StateContext, Store } from '@ngxs/store';
-import { ProductService } from '../services/product.service';
 import { GetProduct } from '../actions/product.action';
 import { RouterStateParams } from '../app.module';
 import { RouterState } from '@ngxs/router-plugin';
 import { map, tap } from 'rxjs/operators';
+import { ProductService } from '../services';
 
 @State<ProductDefault>({
   name: 'products',

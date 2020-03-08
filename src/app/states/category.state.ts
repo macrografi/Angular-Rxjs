@@ -1,8 +1,8 @@
 import { Action, Selector, State, StateContext } from '@ngxs/store';
-import { CategoryService } from '../services/category.service';
 import { CategoryDefault } from '../defaults/category.default';
 import { GetCategory } from '../actions/category.action';
 import { tap } from 'rxjs/operators';
+import { CategoryService } from '../services';
 
 @State<CategoryDefault>({
   name: 'categories',

@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, OnDestroy, OnInit } from '@angular/core';
 import { Select, Store } from '@ngxs/store';
-import { CategoryState } from './states/category.state';
 import { GetCategory } from './actions/category.action';
+import { CategoryState } from './states';
 
 @Component({
   selector: 'app-root',

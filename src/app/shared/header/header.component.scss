@@ -13,4 +13,17 @@ header {
     font-size: 28px;
     line-height: 29px;
   }
+  .no-auth {
+    margin: 0 10px 0 0;
+    color: $white;
+    font-size: 14px;
+    li {
+      margin: 0 5px 0 0;
+      list-style-type: none;
+      text-shadow: 0 2px 2px rgba(0, 0, 0, 0.7);
+      a {
+        color: $white;
+      }
+    }
+  }
 }

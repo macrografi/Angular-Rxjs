@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 import { Select } from '@ngxs/store';
-import { ProductState } from '../states/product.state';
-
 import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
 import { ModalComponent } from '../modal/modal.component';
 import { tap } from 'rxjs/operators';
+import { ProductState } from '../states';
 
 @Component({
   selector: 'app-products',
